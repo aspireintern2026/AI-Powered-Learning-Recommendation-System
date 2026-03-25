@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduSmart AI | Personal Learning System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="bg-blue-600 p-2 rounded-lg text-white">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <span class="text-xl font-bold text-slate-800 tracking-tight">ASPIRE CODE AI</span>
+            </div>
+            <div class="hidden md:flex gap-8 text-slate-600 font-medium">
+                <a href="#problem" class="hover:text-blue-600 transition">Problem</a>
+                <a href="#solution" class="hover:text-blue-600 transition">Solution</a>
+                <a href="#tech" class="hover:text-blue-600 transition">Stack</a>
+                <a href="#" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Launch Demo</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="py-20 bg-gradient-to-br from-slate-900 to-blue-900 text-white px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="bg-blue-500/20 text-blue-300 px-4 py-1 rounded-full text-sm font-semibold uppercase tracking-widest">AI & Education</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold mt-6 mb-6 leading-tight">AI-Powered Personal Learning Recommendation System</h1>
+            <p class="text-xl text-slate-300 mb-10">Bridging the gap in traditional education with data-driven personalized learning paths based on performance patterns.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#solution" class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-bold text-lg transition shadow-xl">Explore Solution</a>
+                <a href="#tech" class="bg-white/10 hover:bg-white/20 backdrop-blur-md px-8 py-4 rounded-lg font-bold text-lg transition border border-white/20">View Tech Stack</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Problem Section -->
+    <section id="problem" class="py-20 px-4 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold text-slate-800 mb-6 underline decoration-blue-500 decoration-4 underline-offset-8">The Real-World Problem</h2>
+                <p class="text-slate-600 text-lg mb-6 leading-relaxed">
+                    In traditional education systems, all students follow the same path regardless of their individual abilities. This leads to several critical issues:
+                </p>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-circle-exclamation text-red-500 mt-1"></i>
+                        <span class="text-slate-700">Lack of personalized learning paths for different IQ levels.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-circle-exclamation text-red-500 mt-1"></i>
+                        <span class="text-slate-700">Students getting stuck on difficult topics without guidance.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-circle-exclamation text-red-500 mt-1"></i>
+                        <span class="text-slate-700">Inefficient learning progression due to "one-size-fits-all."</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-2xl border-l-8 border-blue-600">
+                <h3 class="font-bold text-xl mb-4 italic text-slate-500 uppercase tracking-widest">Example Scenario</h3>
+                <div class="bg-slate-50 p-6 rounded-lg font-mono text-sm">
+                    <p class="text-blue-600 font-bold mb-2">Student ID: S204</p>
+                    <p class="mb-1 text-slate-800 font-semibold">Detected Weak Topic: Recursion</p>
+                    <hr class="my-4">
+                    <p class="text-green-600 font-bold mb-1">Recommended:</p>
+                    <p class="text-slate-600">Intermediate Recursion Practice & Visualized Memory Stack Resources</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section id="tech" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-16">Technology Stack</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md border-b-4 border-blue-500">
+                    <i class="fab fa-python text-4xl text-blue-600 mb-4"></i>
+                    <h4 class="font-bold">Core Analytics</h4>
+                    <p class="text-slate-500 text-sm">Pandas, NumPy, Scikit-learn</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md border-b-4 border-purple-500">
+                    <i class="fas fa-brain text-4xl text-purple-600 mb-4"></i>
+                    <h4 class="font-bold">AI Models</h4>
+                    <p class="text-slate-500 text-sm">XGBoost, Random Forest</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md border-b-4 border-green-500">
+                    <i class="fas fa-chart-line text-4xl text-green-600 mb-4"></i>
+                    <h4 class="font-bold">Visualization</h4>
+                    <p class="text-slate-500 text-sm">Matplotlib, Seaborn</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md border-b-4 border-red-500">
+                    <i class="fas fa-window-maximize text-4xl text-red-600 mb-4"></i>
+                    <h4 class="font-bold">User Interface</h4>
+                    <p class="text-slate-500 text-sm">Streamlit Framework</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-slate-400">
+        <p>© 2024 Aspire Code AI - Personal Learning Project</p>
+        <p class="text-sm mt-2 font-mono italic">Allotted to: Vijay.M</p>
+    </footer>
+
+</body>
+</html>
